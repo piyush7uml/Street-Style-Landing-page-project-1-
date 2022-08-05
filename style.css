@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+
+/* ------------------------------ */
+/* ---------NAVBAR----------- */
+/* ------------------------------ */
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 3rem;
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.list-item {
+    display: inline-block;
+    margin:0 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+.list-item:hover {
+    font-weight: 600;
+    border-bottom: 2px solid #000000;
+}
+[alt="brand-logo"] {
+   width: 8rem;
+
+}
+.button-group {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+}
+
+.search-icon {
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.search-icon svg {
+    width: 1.2rem;
+    height: 1.8rem;
+}
+
+.nav-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    color: #6A6A6A;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #494949;
+}
+
+
+
+
+/* ------------------------------ */
+/* ---------HERO-BANNER-SECTION----------- */
+/* ------------------------------ */
+
+
+.square img {
+    display: inline-block;
+    width: 22rem;
+}
+.square {
+    width: 10rem;
+    display: block;
+    position: relative;
+    top: 20rem;
+    left: 9.5rem;
+    
+}
+
+
+[alt="person-hero-iamge"] {
+    display: inline-block;
+    width: 26rem;
+    position: relative;
+    bottom: 19rem;
+} 
+
+.globe {
+    display: inline-block;
+    position: relative;
+    left: 40rem;
+    bottom: 18rem;
+    height: 3rem;
+    
+ }
+
+ .globe img {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+}
+
+.star {
+    display: inline-block;
+    position: relative;
+    left: 75rem;
+    bottom: 16rem;
+    
+ }
+
+ .star img {
+    display: inline-block;
+    width: 3rem;
+}
+
+
+.hero-container {
+    height: 100vh;
+}
+
+
+.hero-container-right {
+    display: inline-block;
+    position: relative;
+    left: 25rem;
+    bottom: 45rem;
+    padding: 0 0 0 5rem;
+    text-align: center;
+    width: 70%;
+    margin-right: 0;
+}
+
+
+.hero-heading {
+    
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.hero-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #6A6A6A;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 0 6rem;
+    
+    
+}
+
+
+.button-email {
+    display: inline-block;
+    padding: 0.2rem 2rem;
+    color: #6A6A6A;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #6A6A6A;
+
+}
+
+.button-join {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #000000;
+    border:none;
+    margin-left: 1rem;
+}
+
+
+.contact-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    color: #494949;
+}
+
+.icons span img {
+    display: inline-block;
+    width: 2rem;
+    margin-right: 0.7rem;
+}
